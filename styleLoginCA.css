@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body {
+    font-family: Arial, sans-serif;
+    
+    text-align: center;
+    margin: 0px;
+    overflow: hidden;
+}
+h1{
+position: absolute;
+top: 5%; /* Ajusta la posición vertical del h1 */
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 1;
+color: #9b111e;
+font-size: 3em; /* Ajusta el tamaño del texto según sea necesario */
+background-color: rgba(0, 0, 0, 0); /* Fondo transparente */
+padding: 10px; /* Ajusta el espacio interno del h1 */
+}
+h2{
+    position: absolute;
+    top: 14%; /* Ajusta la posición vertical del h1 */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    font-size: 2em; /* Ajusta el tamaño del texto según sea necesario */
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente */
+    padding: 10px; /* Ajusta el espacio interno del h1 */
+    }
+#video-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+img{
+    height: 70px;
+    width: 70px;
+}
+img:hover{
+    height: 70px;
+    width: 70px;
+    transform: rotate(360deg); /* Puedes ajustar el ángulo según tus necesidades */
+    transition: transform 0.5s ease-in-out; /* Agrega una transición suave para un efecto más agradable */
+}
+#login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    background-color: rgba(255,255,255,0);/*rgba(0, 0, 0, 0.5)  Fondo transparente para el formulario */
+    padding: 20px; /* Ajusta el espacio interno del formulario */
+    border-radius: 10px; /* Añade esquinas redondeadas */
+}
+
+#login-form label {
+    display: block;
+    margin: 10px 0; /* Espacio entre etiquetas y entradas */
+    font-size: 40px;
+}
+
+#login-form input {
+    width: 140%;
+    padding: 10px;
+    margin: 12px 0; /*5 */
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#login-form input::placeholder{
+    color: rgb(168, 168, 168);
+    text-align: center;
+    font-size: 30px;
+}
+#login-form input {
+    width: 140%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+input{
+    /* Ajustar el tamaño del texto al tamaño del input */
+    flex: 1;
+    font-size: 30px; /* Ajusta el tamaño según tus necesidades */
+    color: white;
+}
+.input-error {
+    color: yellow;
+    margin-top: 5px;
+}
+#login-form button {
+    width: 100%;
+    padding: 17px;
+    margin: 10px 0;
+    background-color: #640b0b;
+    color: white;
+    font-size: 17px;
+    cursor: pointer;
+    border: none;
+    border-radius: 14px;
+}
+
+#login-form button:hover {
+    background-color: #9b111e;
+}
+
+h3{
+    position: absolute;
+    top: 97%; /* Ajusta la posición vertical del h1 */
+    left: 8%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    color: white;
+    font-size: 1em; /* Ajusta el tamaño del texto según sea necesario */
+    background-color: rgba(0, 0, 0, 0); /* Fondo transparente */
+    padding: 10px; /* Ajusta el espacio interno del h1 */
+    
+} 

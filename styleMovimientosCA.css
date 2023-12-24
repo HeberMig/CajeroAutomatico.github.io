@@ -1,0 +1,66 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body{
+    background-color: bisque;
+}
+
+#container-movimientos {
+    position: relative;
+    text-align: center;
+}
+
+#container-movimientos h1 {
+    color: #139c3c;
+    padding-top: 40px;
+    margin-top: -70px ;
+}
+
+#container-movimientos h2 {
+    color: #139c3c;
+    top: 40px;
+    margin-top: -14px;
+}
+
+#movimientos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 90px;  
+    padding-top: 110px;
+}
+
+#movimientos button {
+    background-color: #dd940c;
+    color: white;
+    padding: 15px; /* Ajusta el espacio interno del botón */
+    margin: 10px 0;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 40%; /* Ajusta el ancho del botón según tus necesidades */
+    font-size: 18px
+}
+
+#movimientos button:hover {
+    background-color: #b37607;
+}
+
+#mensaje-en-pantalla,
+#historial-en-pantalla {
+    margin-top: 20px;
+    text-align: center;
+    overflow: auto; /* Añade una barra de desplazamiento si el contenido es demasiado grande */
+    max-height: 100px;
+    background-color: #4CAF50; /* Color verde de fondo */
+    padding: 10px; /* Añade un poco de espacio interno */
+    color: white; /* Color del texto */
+    border-radius: 20px;
+}
+h3{
+    color: red;
+}
